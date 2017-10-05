@@ -60,12 +60,12 @@ $(document).ready(function() {
 
 	function changeToHidden(id) {
 		$("#"+id).attr("data-state", "hidden");
-		$("#"+id).attr("src", "hidden.jpeg");
+		$("#"+id).attr("src", "assets/hidden.jpeg");
 	}
 
 	function changeToShowing(id) {
 		$("#"+id).attr("data-state", "showing");
-		$("#"+id).attr("src", "showing.jpeg");
+		$("#"+id).attr("src", "assets/showing.jpeg");
 	}
 
 	function mole(id) {
