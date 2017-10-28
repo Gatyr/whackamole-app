@@ -4,6 +4,8 @@ $(document).ready(function() {
 	let bestScore;
 	let timeLeft = 20;
 
+	console.log("boop");
+
 	let startTimes = [1000, 2000, 2500, 3000, 4000, 4500, 5000, 6000, 6750];
 	let interimTimes = [2000, 3000, 3500, 4000, 4500, 5000, 6000]
 	let durationTimes = [1000, 1500, 2000, 2500, 3000];
